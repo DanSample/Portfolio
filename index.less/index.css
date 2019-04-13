@@ -135,7 +135,10 @@ html {
 html,
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0 5rem 0 5rem;
 }
-.headerImage {
-  width: 200rem;
+img {
+  max-width: 100%;
+  height: auto 0;
+  margin: 5rem;
 }
