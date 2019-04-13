@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.headerImage {
+  width: 200rem;
+}
