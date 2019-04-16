@@ -1,22 +1,24 @@
-// img {
-//     max-width: 100%;
-//     width: 100%;
-//     height: 100vh;
-//     padding-left: 2rem;
-// }
-
-header {
-    background-image: url('/img/needleandrainier4.jpg');
-    filter: blur(5px);
-    max-width: 100%;
-    width: 100%;
+ .navBarContainer {
     height: 100vh;
-}
+    width: 100%;
+    margin: auto;
+    background: url('/img/needleandrainier3.jpg') no-repeat 55% 30%;
 
-.headerBackground {
-    backdrop-filter: blur();
-}
+    .navBarContent {
+        .flexProp;
+        flex-direction: column;
+        justify-content: center;
 
-h1 {
-    color: blue;
+        ul {
+            .flexProp;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+
+        li {
+            color: slategray;
+            font-size: 2rem;
+            padding: 0 2rem 0 2rem
+        }
+    }
 }

@@ -145,31 +145,8 @@ body {
   margin: 0;
 }
 .navBarContainer {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   margin: auto;
-  background: url('/img/needleandrainier3.jpg') no-repeat 55% 30%;
-}
-.navBarContainer .navBarContent {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.navBarContainer .navBarContent ul {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-.navBarContainer .navBarContent li {
-  color: slategray;
-  font-size: 2rem;
-  padding: 0 2rem 0 2rem;
+  background-image: url('/img/needleandrainier.jpg') no-repeat 50% 50%;
 }

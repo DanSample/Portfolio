@@ -1,0 +1,7 @@
+.navBarContainer {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: url('/img/needleandrainier.jpg') no-repeat 50% 50%;
+  display: table;
+}

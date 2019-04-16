@@ -1,10 +1,3 @@
-.flexProp {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -132,44 +125,4 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
-* {
-  box-sizing: border-box;
-}
-html {
-  font-size: 62.5%;
-}
-html,
-body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-}
-.navBarContainer {
-  height: 100vh;
-  width: 100%;
-  margin: auto;
-  background: url('/img/needleandrainier3.jpg') no-repeat 55% 30%;
-}
-.navBarContainer .navBarContent {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.navBarContainer .navBarContent ul {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-.navBarContainer .navBarContent li {
-  color: slategray;
-  font-size: 2rem;
-  padding: 0 2rem 0 2rem;
 }
